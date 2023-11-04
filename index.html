@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Peak Physique Gym</title>
+  </head>
+
+  <body>
+    <nav class="navbar">
+      <div class="logo">Peak Physique Gym</div>
+      <div class="menu">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Pricing</a>
+        <a href="#contact-page">Contact</a>
+      </div>
+    </nav>
+
+    <div class="container">
+      <div class="home-intro">
+        <img
+          class="dumble"
+          src="https://t3.ftcdn.net/jpg/02/66/28/30/360_F_266283016_fS95qWYPIfK2budfoei7wVPkG2MOIvlo.jpg"
+          alt="dumble"
+        />
+
+        <h1 class="title">Peak Physique Gym</h1>
+        <p class="tag-line">The best fitness Gym in the town is here -></p>
+        <p class="description">
+          Your fitness sanctuary in the heart of the city. Unleash your
+          potential with our expert trainers, cutting-edge equipment, and
+          diverse classes. Whether you're a beginner or a pro, our personalized
+          programs and motivating atmosphere will help you achieve your fitness
+          goals. Join us and sculpt your peak physique today.
+        </p>
+      </div>
+
+      <div class="carousel">
+        <div class="carousel-slides">
+          <div class="carousel-slide fade active">
+            <img
+              src="https://img.freepik.com/free-photo/couple-training-together-gym_651396-1076.jpg?w=1380&t=st=1699074396~exp=1699074996~hmac=2df7b096e3d69807c7da120d567e70b40708930c14ca72d727d1faaf0b54305d"
+              alt="Gym Slide 1"
+            />
+          </div>
+          <div class="carousel-slide fade">
+            <img
+              src="https://img.freepik.com/free-photo/athletic-aerobics-active-adult-athlete_1303-1651.jpg?w=1380&t=st=1699075417~exp=1699076017~hmac=0a1334aca92ea1d7950e4b723b99f64b8781a73c7fb8dc1d9dc2eb3352850f89"
+              alt="Gym Slide 2"
+            />
+          </div>
+          <div class="carousel-slide fade">
+            <img
+              src="https://img.freepik.com/free-photo/people-doing-indoor-cycling_23-2149270265.jpg?w=1380&t=st=1699074698~exp=1699075298~hmac=2ece9d2c0a5a5e9c1f6ead0538c78157ee0b3f9612029957f1ac6aab57b054b4"
+              alt="Gym Slide 3"
+            />
+          </div>
+        </div>
+        <button class="carousel-prev">&#10094;</button>
+        <button class="carousel-next">&#10095;</button>
+        <div class="carousel-indicators">
+          <span class="indicator active"></span>
+          <span class="indicator"></span>
+          <span class="indicator"></span>
+        </div>
+      </div>
+    </div>
+    <header class="header"></header>
+
+    <section class="pricing">
+      <h2>Membership Pricing</h2>
+      <div class="pricing-plan">
+        <h3>Basic Plan</h3>
+        <p>Access to gym facilities</p>
+        <p>Personalized workout plans</p>
+        <p class="price">Price: ₹250/month</p>
+        <div class="Purchase">
+          <button class="purchase-btn">Purchase Now</button>
+        </div>
+      </div>
+      <div class="pricing-plan">
+        <h3>Premium Plan</h3>
+        <p>Access to gym facilities</p>
+        <p>Personalized workout plans</p>
+        <p>Group fitness classes</p>
+        <p class="price">Price: ₹660/month</p>
+        <div class="Purchase">
+          <button class="purchase-btn">Purchase Now</button>
+        </div>
+      </div>
+    </section>
+    <section id="contact-page" class="contact">
+      <div class="contact-container">
+        <h1>Contact Us</h1>
+        <p>Feel free to get in touch with us. We're here to help you!</p>
+
+        <form class="contact-form">
+          <div class="form-group">
+            <label for="name">Your Name</label>
+            <input type="text" id="name" name="name" required />
+          </div>
+
+          <div class="form-group">
+            <label for="email">Your Email</label>
+            <input type="email" id="email" name="email" required />
+          </div>
+
+          <div class="form-group">
+            <label for="message">Your Message</label>
+            <textarea id="message" name="message" rows="6" required></textarea>
+          </div>
+
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <p>&copy; 2023 Abhishek's Gym. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
